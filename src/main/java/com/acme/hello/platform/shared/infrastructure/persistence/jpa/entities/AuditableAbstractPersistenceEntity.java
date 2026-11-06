@@ -17,6 +17,7 @@ public class AuditableAbstractPersistenceEntity {
 
     @Column(nullable = false, updatable = false)
     private Date createdAt;
+
     @Column(nullable = false)
     private Date updatedAt;
 }
